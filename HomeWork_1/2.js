@@ -8,3 +8,7 @@
 */
 
 // Здесь пишем решение, данный комментарий необходимо стереть.
+
+const myName = "Nikolai";
+const admin = myName;
+console.log(admin);
