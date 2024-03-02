@@ -24,3 +24,12 @@
 */
 
 // Здесь пишем решение, данный комментарий необходимо стереть.
+
+const num = Number.parseInt(prompt("Введите число"));
+const hundreads = Math.trunc((num / 100) % 10);
+const tens = Math.trunc((num / 10) % 10);
+const ones = num % 10;
+alert(
+  `В числе ${num} количество сотен: ${hundreads}, десятков: ${tens}, единиц: ${ones}`
+);
+// на самом деле количество сотен в числе 9537 должно быть не 5, а 95.
