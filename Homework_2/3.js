@@ -16,18 +16,18 @@
 
 //
 
-// let dayNumber = Number(prompt("Введите целое число от 1 до 31:"));
-// let monthDecade = 0;
-// if (1 <= dayNumber && dayNumber < 10) {
-//   monthDecade = 1;
-//   alert(`Число ${dayNumber} попадает в ${monthDecade} декаду месяца.`);
-// } else if (9 < dayNumber && dayNumber < 20) {
-//   monthDecade = 2;
-//   alert(`Число ${dayNumber} попадает в ${monthDecade} декаду месяца.`);
-// } else if (19 < dayNumber && dayNumber < 32) {
-//   monthDecade = 3;
-//   alert(`Число ${dayNumber} попадает в ${monthDecade} декаду месяца.`);
-//   // согласно статье из интернета, если в месяце 31 день, то 31 число попадает также в третью декаду как и двадцатые числа месяца, хотя математически как-будто должна быть 4 декада
-// } else {
-//   alert("Неверное значение");
-// }
+let dayNumber = Number(prompt("Введите целое число от 1 до 31:"));
+let monthDecade = 0;
+if (1 <= dayNumber && dayNumber < 10) {
+  monthDecade = 1;
+  alert(`Число ${dayNumber} попадает в ${monthDecade} декаду месяца.`);
+} else if (9 < dayNumber && dayNumber < 20) {
+  monthDecade = 2;
+  alert(`Число ${dayNumber} попадает в ${monthDecade} декаду месяца.`);
+} else if (19 < dayNumber && dayNumber < 32) {
+  monthDecade = 3;
+  alert(`Число ${dayNumber} попадает в ${monthDecade} декаду месяца.`);
+  // согласно интернету, если в месяце 31 день, то 31 число попадает также в третью декаду как и двадцатые числа месяца, хотя математически как-будто должна быть 4 декада
+} else {
+  alert("Неверное значение");
+}
