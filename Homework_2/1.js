@@ -15,10 +15,10 @@
 
 //
 
-let positive = Number(prompt("Введите положительное число: "));
-let negative = Number(prompt("Введите отрицательное число: "));
-if (positive > 0 && negative < 0) {
-  alert("Все значения верные.");
-} else {
-  alert("Одно или более значений некорректно.");
-}
+// let positive = Number(prompt("Введите положительное число: "));
+// let negative = Number(prompt("Введите отрицательное число: "));
+// if (positive > 0 && negative < 0) {
+//   alert("Все значения верные.");
+// } else {
+//   alert("Одно или более значений некорректно.");
+// }
