@@ -10,16 +10,21 @@
 три числа. Проверять их не нужно.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+//
 
-// function findMaximal(num1, num2, num3) {
-//   const max = Math.max(num1, num2, num3);
-//   return alert(
-//     `Максимальное значение среди чисел ${num1}, ${num2}, ${num3} равно ${max}`
-//   );
-// }
-// const num1 = Number(prompt("введите первое число"));
-// const num2 = Number(prompt("введите второе число"));
-// const num3 = Number(prompt("введите третье число"));
+const num1 = Number(prompt("введите первое число"));
+const num2 = Number(prompt("введите второе число"));
+const num3 = Number(prompt("введите третье число"));
 
-// console.log(findMaximal());
+function findMaximal(number1, number2, number3) {
+  //   let max = Math.max(num1, num2, num3);
+  return alert(
+    `Максимальное значение среди чисел ${number1}, ${number2}, ${number3} равно ${Math.max(
+      number1,
+      number2,
+      number3
+    )}`
+  );
+}
+
+findMaximal(num1, num2, num3);
