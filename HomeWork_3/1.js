@@ -8,3 +8,9 @@
 */
 
 // Здесь пишем решение, данный комментарий необходимо стереть.
+
+function cube(number) {
+  return number ** 3;
+}
+
+alert(cube(Number(prompt("введите число"))));
