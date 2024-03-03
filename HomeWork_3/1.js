@@ -9,8 +9,8 @@
 
 // Здесь пишем решение, данный комментарий необходимо стереть.
 
-function cube(number) {
-  return number ** 3;
-}
+// function cube(number) {
+//   return number ** 3;
+// }
 
-alert(cube(Number(prompt("введите число"))));
+// alert(cube(Number(prompt("введите число"))));

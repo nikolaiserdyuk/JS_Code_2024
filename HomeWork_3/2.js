@@ -10,3 +10,15 @@
 */
 
 // Здесь пишем решение, данный комментарий необходимо стереть.
+
+// function Salary(money) {
+//   if (isNaN(money) === false) {
+//     const clearSalary = money * 0.87;
+//     return console.log(
+//       `Размер заработной платы за вычетом налогов равен ${clearSalary}`
+//     );
+//   } else {
+//     return console.log("Значение задано неверно");
+//   }
+// }
+// console.log(Salary(prompt("Введите размер Вашей зарплаты")));

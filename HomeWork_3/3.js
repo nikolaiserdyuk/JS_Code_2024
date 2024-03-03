@@ -11,3 +11,12 @@
 */
 
 // Здесь пишем решение, данный комментарий необходимо стереть.
+
+// function findMaximal(num1, num2, num3) {
+//   const max = Math.max(num1, num2, num3);
+//   return alert(
+//     `Максимальное значение среди чисел ${num1}, ${num2}, ${num3} равно ${max}`
+//   );
+// }
+
+// findMaximal(Number(prompt("введите три числа")));
