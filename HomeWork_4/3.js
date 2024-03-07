@@ -16,35 +16,35 @@
 
 // Здесь пишем решение, данный комментарий необходимо стереть.
 
-const array = [];
-let sum = 0;
+// const array = [];
+// let sum = 0;
 
-for (let i = 0; i < 5; i++) {
-  array.push(Math.floor(Math.random() * 10));
-}
-console.log(array); // вывожу для демонстрации массива
+// for (let i = 0; i < 5; i++) {
+//   array.push(Math.floor(Math.random() * 10));
+// }
+// console.log(array); // вывожу для демонстрации массива
 
-for (let index = 0; index < array.length; index++) {
-  sum = sum + array[index];
-}
-console.log(sum);
+// for (let index = 0; index < array.length; index++) {
+//   sum = sum + array[index];
+// }
+// console.log(sum);
 
-let min = array[0];
+// let min = array[0];
 
-for (let i = 0; i < array.length; i++) {
-  if (array[i] < min) {
-    min = array[i];
-  }
-}
-console.log(min);
+// for (let i = 0; i < array.length; i++) {
+//   if (array[i] < min) {
+//     min = array[i];
+//   }
+// }
+// console.log(min);
 
-const arr = array.slice(0);
+// const arr = array.slice(0);
 
-const arrr = [];
+// const arrr = [];
 
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i] === 3) {
-    arrr.push(i);
-  }
-}
-console.log(arrr);
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] === 3) {
+//     arrr.push(i);
+//   }
+// }
+// console.log(arrr);
