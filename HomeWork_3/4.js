@@ -18,4 +18,22 @@ console.log(sum(2, 6)); должно вывести число 8 в консол
 Демонстрировать работы функций не обязательно.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+//
+
+function plus(num1, num2) {
+  console.log(num1 + num2);
+}
+function minus(num1, num2) {
+  console.log(num1 - num2);
+}
+function division(num1, num2) {
+  console.log(num1 / num2);
+}
+function multiplication(num1, num2) {
+  console.log(num1 * num2);
+}
+
+console.log(plus(10, 5));
+console.log(minus(10, 5));
+console.log(division(10, 5));
+console.log(multiplication(10, 5));
