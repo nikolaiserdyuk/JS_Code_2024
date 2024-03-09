@@ -12,4 +12,12 @@ xxxx
 xxxxx
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+//
+
+const item = "x";
+let sum = "";
+
+for (let i = 0; i < 20; i++) {
+  sum = item + sum;
+  console.log(sum);
+}
