@@ -15,4 +15,12 @@ const numbers = {
   key7: 7,
 };
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+//
+
+const num = [];
+for (const key in numbers) {
+  if (numbers[key] >= 3) {
+    num.push(numbers[key]);
+  }
+}
+console.log(num);

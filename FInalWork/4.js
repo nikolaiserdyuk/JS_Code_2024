@@ -32,3 +32,20 @@ const products = [
 ];
 
 // Здесь пишем решение, данный комментарий необходимо стереть.
+
+const photos = products.filter(function (product) {
+  return product.photos;
+});
+console.log(photos);
+
+products.sort(function (a, b) {
+  if (a.price > b.price) {
+    return 1;
+  }
+  if (a.price < b.price) {
+    return -1;
+  }
+  return 0;
+});
+
+console.log(products);
