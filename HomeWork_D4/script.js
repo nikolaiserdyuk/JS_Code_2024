@@ -25,3 +25,22 @@
 // - Как только пользователь начинает заполнять какое-либо поле, необходимо, при вводе в данное поле, произвести проверку:
 // - Если поле пустое, необходимо данное поле подсветить (поставить класс error данному полю).
 // - Если поле было чем-либо заполнено, подсветку (класс error) необходимо убрать.
+
+const input = document.querySelectorAll(".form-control");
+const option = document.querySelectorAll("option");
+const btn2 = document.querySelectorAll("button");
+const btn3 = btn2[1];
+const form = document.querySelector("form");
+let error = false;
+btn3.addEventListener("click", (e) => {
+  e.preventDefault();
+  if (!option[0].checked && !input[0] === "") {
+    form.submit();
+  } else if (input[0].value === "" && error) {
+    input[0].style.border = "3px solid red";
+    error = true;
+  } else if (!option[1].checked && !option[2].checked) {
+    input[1].style.border = "3px solid red";
+    error = true;
+  }
+});
