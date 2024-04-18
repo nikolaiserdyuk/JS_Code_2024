@@ -39,7 +39,7 @@ class Student {
   }
   displayInfo() {
     console.log(
-      `One of the students of our school is named ${this.name}, age ${this.age} years old and studies in the ${this.grade}.`
+      `One of the students of our school - ${this.name}, ${this.age} years old and studies in the ${this.grade}.`
     );
   }
 }
