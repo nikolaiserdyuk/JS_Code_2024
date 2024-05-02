@@ -26,7 +26,7 @@ const getUserData = (id) => {
       console.error(error.message);
     });
 };
-getUserData(5);
+getUserData(3);
 
 // Задание 2
 // ""Отправка данных на сервер""
